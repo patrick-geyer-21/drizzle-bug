@@ -1,0 +1,20 @@
+{
+  "name": "@my-sst-app/functions",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "sst bind vitest",
+    "typecheck": "tsc -noEmit"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.138",
+    "@types/node": "^20.12.12",
+    "drizzle-kit": "^0.21.4",
+    "sst": "^2.42.0",
+    "vitest": "^1.6.0"
+  },
+  "dependencies": {
+    "@aws-sdk/client-rds-data": "^3.583.0",
+    "drizzle-orm": "^0.30.10"
+  }
+}
